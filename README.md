@@ -11,11 +11,11 @@ This Laravel-based Invoice Management System is designed to streamline invoicing
 - **Reporting & Analytics:** Visual reports with advanced filtering and real-time data insights.
 - **Export & Print:** Generate PDFs and print invoices directly from the interface.
 - **Notifications** Real-time system notifications to keep users updated.
-# Technologies Used
+## Technologies Used
 - **Backend:** Laravel PHP Framework
 - **Frontend:** HTML, CSS, JavaScript,Blade, Bootstrap
 - **Database:** MySQL
-# Installation
+## Installation
 1. Clone the repository
 ```bash
 git clone https://github.com/Abdelrahmans123/InvoiceManagementSystem.git
@@ -58,9 +58,9 @@ php artisan db:seed
 php artisan serve
 ```
 This will start the server at http://127.0.0.1:8000.
-# Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-# License
+## License
 This project is licensed under the MIT License.
-# Support
+## Support
 For support or inquiries, please contact [sabdelrahman110@gmail.com](mailto:sabdelrahman110@gmail.com).
