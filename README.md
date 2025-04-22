@@ -1,66 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Invoice Management System
+## Overview
+This Laravel-based Invoice Management System is designed to streamline invoicing, customer tracking, and reporting within organizations. It offers a robust set of features for efficient billing operations, document management, and analytics — all within a secure, role-based access environment.
+## Features
+- **Scalable Architecture:** Built for performance and future expansion.
+- **Authentication & RBAC:** Secure login with role-based access control using Laravel’s middleware.
+- **Invoice CRUD Operations:** Create, view, update, and delete invoices easily.
+- **Customer Management:** Track customers and associate them with invoices.
+- **Attachment Handling:** Upload and manage invoice-related documents.
+- **Status Tracking:** Update and monitor invoice payment status (e.g., Paid, Unpaid, Overdue).
+- **Reporting & Analytics:** Visual reports with advanced filtering and real-time data insights.
+- **Export & Print:** Generate PDFs and print invoices directly from the interface.
+- **Notifications** Real-time system notifications to keep users updated.
+# Technologies Used
+- **Backend:** Laravel PHP Framework
+- **Frontend:** HTML, CSS, JavaScript,Blade, Bootstrap
+- **Database:** MySQL
+# Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Abdelrahmans123/InvoiceManagementSystem.git
+```
+2. Navigate to the directory
+```bash
+cd InvoiceManagementSystem
+```
+3. Install dependencies
+```bash
+composer install
+```
+4. Set up your .env file. You can copy the .env.example to .env
+```bash
+copy .env.example .env
+```
+5. Set up your database connection in the .env file by updating the database settings
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task_management_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+6. Generate the application key
+```bash
+php artisan key:generate
+```
+7. Run database migrations to create the necessary tables
+```bash
+php artisan migrate
+```
+8. Seed database
+```bash
+php artisan db:seed
+```
+9. Start the Laravel development server
+```bash
+php artisan serve
+```
+This will start the server at http://127.0.0.1:8000.
+# Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+# License
+This project is licensed under the MIT License.
+# Support
+For support or inquiries, please contact [sabdelrahman110@gmail.com](mailto:sabdelrahman110@gmail.com).
