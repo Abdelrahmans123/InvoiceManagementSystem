@@ -53,7 +53,11 @@ php artisan migrate
 ```bash
 php artisan db:seed
 ```
-9. Start the Laravel development server
+9. Install React dependencies using npm:
+```bash
+npm install
+```
+10. Start the Laravel development server
 ```bash
 php artisan serve
 ```
